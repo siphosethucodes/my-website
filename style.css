@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family-Dela+Gothic+One&family--Inter:wght@400;500;600&display=swap');
+
+:root{
+    --bg1: #1518128;
+    --gb2: #181f34;
+    --body: #959595;
+    --brand: #ffa876;
+    --white: #fff;
+}
+
+body{
+    font-family: "Inter", 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffa876;
+    line-height: 1.8;
+    background-color: var(--brand);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dela Gothic One', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+}
+
+
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+/* INTRO */
+.intro{
+    margin-bottom: 60px;
+}
+
+.intro h1{
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.intro h6{
+    color: #959595;
+}
+
+.intro p {
+    max-width: 50px;
+    margin: auto;
+    width: 700px;
+    margin: auto;
+
+}
+
+.btn-btm
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:#3B5998;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+  
+  li a:hover {
+    background-color: rgb(233, 233, 233)}
+
+
+/* HERO */
+#hero{
+    background: linear-gradient(to right,#181f34, rgba(27, 31, 52, 0.0)), url(/img/photo\ 10.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: auto;
+}
+
+#hero p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* BTN */
+.btn{
+    padding: 16px 36px;
+    font-family: 'Dela Gothic One', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     transition: all 0.4s ease;
+     border-radius: 0;
+}
+
+.btn-brand{
+    background-color: #ffa876;
+}
+
+.btn-brand:hover{
+    background-color: transparent;
+    color: #181f34;
+    border-color: #181f34;
+}
+
+.btn-outline-brand{
+    background-color: transparent;
+    color: #181f34;
+    border-color: #181f34;
+}
+
+.btn-outline-brand:hover{
+    background-color: #181f34;
+}
+
+
+/* ABOUT*/
+#about{
+   position: relative;
+}
+
+#about::after{
+    content: '';
+    width: 25%;
+    height: 100%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#about h6{
+    color: #ffa876;
+}
+
+#about h1{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+/* SERVICE*/
+#service{
+    background: #959595;
+}
+
+#services .service .content{
+    padding: 32px;
+}
+
+#services .service p{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+#services h6{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+/* Gallery */
+#about{
+    position: relative;
+ }
+ 
+ #about::after{
+     content: '';
+     width: 25%;
+     height: 100%;
+     background-color: #ffa876;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+ }
+ 
+ #about h6{
+     color: #ffa876;
+ }
+ 
+ #about h1{
+     margin-top: 16px;
+     margin-bottom: 24px;
+ }
+/* Contact */
+.contact{
+    font-size:xx-large;
+            font-style: italic;
+            padding-left: 10px;
+            margin-right: 100px;
+            margin-left: 100px;
+}
+
+body{
+
+    background-color:var(--body);
+}
